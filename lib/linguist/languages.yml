@@ -829,6 +829,13 @@ PHP:
   filenames:
   - Phakefile
 
+PKGBUILD:
+  group: Shell
+  lexer: Bash
+  primary_extension: .phrik # Dummy extension
+  filenames:
+  - PKGBUILD
+
 Parrot:
   type: programming
   lexer: Text only
