@@ -64,6 +64,11 @@
 # MathJax
 - (^|/)MathJax/
 
+# ExtJS
+- (^|/)ext(-(all|base|core|debug|dev))?([^.]*)?\.js$
+- (^|/)ext-([-.]*-)?adapter(-debug[^.]*)?\.js$
+
+
 ## Python ##
 
 # Fabric
