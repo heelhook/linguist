@@ -341,7 +341,7 @@ module Linguist
     #
     # Returns true or false
     def generated_rdoc?
-      return false unless lines.count > 3
+      return false unless lines.count > 10
       
       case extname.downcase
       when ".html"
